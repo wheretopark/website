@@ -1,52 +1,41 @@
-<svg version="1.1" width="600" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px">
+<svg version="1.1" width="300" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px">
     <rect width="100%" height="100%" fill="#282B2A" />
 
-    <line x1="240" y1="225" x2="240" y2="375" stroke-width="3" stroke="#F7B500" />
-    <line x1="360" y1="225" x2="360" y2="375" stroke-width="3" stroke="#F7B500" />
+    <line x1="100" y1="80" x2="100" y2="220" stroke-width="3" stroke="#F7B500" />
+    <line x1="200" y1="80" x2="200" y2="220" stroke-width="3" stroke="#F7B500" />
 
     <!-- Basic chasis -->
-    <rect x="150" y="250" width="50" height="100" rx="10" fill="#e0e0e0" />
+    <rect x="30" y="100" width="50" height="100" rx="10" fill="#e0e0e0" />
     <!-- Left mirror -->
-    <rect x="145" y="280" width="10" height="10" rx="2" fill="#e0e0e0" />
+    <rect x="25" y="130" width="10" height="10" rx="2" fill="#e0e0e0" />
     <!-- Right mirror -->
-    <rect x="195" y="280" width="10" height="10" rx="2" fill="#e0e0e0" />
+    <rect x="75" y="130" width="10" height="10" rx="2" fill="#e0e0e0" />
     <!-- Front window -->
-    <rect x="155" y="275" width="40" height="15" rx="5" ry="10" fill="#212121" />
+    <rect x="35" y="115" width="40" height="15" rx="5" ry="10" fill="#212121" />
     <!-- Rear window -->
-    <rect x="155" y="320" width="40" height="15" rx="5" ry="10" fill="#212121" />
+    <rect x="35" y="170" width="40" height="15" rx="5" ry="10" fill="#212121" />
 
 
     <!-- Basic chasis -->
-    <rect x="275" y="250" width="50" height="100" rx="10" fill="#e0e0e0" />
+    <rect x="130" y="100" width="50" height="100" rx="10" fill="#e0e0e0" />
     <!-- Left mirror -->
-    <rect x="320" y="280" width="10" height="10" rx="2" fill="#e0e0e0" />
+    <rect x="125" y="130" width="10" height="10" rx="2" fill="#e0e0e0" />
     <!-- Right mirror -->
-    <rect x="280" y="280" width="10" height="10" rx="2" fill="#e0e0e0" />
+    <rect x="175" y="130" width="10" height="10" rx="2" fill="#e0e0e0" />
     <!-- Front window -->
-    <rect x="280" y="275" width="40" height="15" rx="5" ry="10" fill="#212121" />
+    <rect x="135" y="115" width="40" height="15" rx="5" ry="10" fill="#212121" />
     <!-- Rear window -->
-    <rect x="280" y="320" width="40" height="15" rx="5" ry="10" fill="#212121" />
+    <rect x="135" y="170" width="40" height="15" rx="5" ry="10" fill="#212121" />
+
 
     <!-- Basic chasis -->
-    <rect x="275" y="250" width="50" height="100" rx="10" fill="#e0e0e0" />
+    <rect x="230" y="100" width="50" height="100" rx="10" fill="#e0e0e0" />
     <!-- Left mirror -->
-    <rect x="270" y="280" width="10" height="10" rx="2" fill="#e0e0e0" />
+    <rect x="225" y="130" width="10" height="10" rx="2" fill="#e0e0e0" />
     <!-- Right mirror -->
-    <rect x="280" y="280" width="10" height="10" rx="2" fill="#e0e0e0" />
+    <rect x="275" y="130" width="10" height="10" rx="2" fill="#e0e0e0" />
     <!-- Front window -->
-    <rect x="280" y="275" width="40" height="15" rx="5" ry="10" fill="#212121" />
+    <rect x="235" y="115" width="40" height="15" rx="5" ry="10" fill="#212121" />
     <!-- Rear window -->
-    <rect x="280" y="320" width="40" height="15" rx="5" ry="10" fill="#212121" />
-
-    <!-- Basic chasis -->
-    <rect x="400" y="250" width="50" height="100" rx="10" fill="#e0e0e0" />
-    <!-- Left mirror -->
-    <rect x="395" y="280" width="10" height="10" rx="2" fill="#e0e0e0" />
-    <!-- Right mirror -->
-    <rect x="445" y="280" width="10" height="10" rx="2" fill="#e0e0e0" />
-    <!-- Front window -->
-    <rect x="405" y="275" width="40" height="15" rx="5" ry="10" fill="#212121" />
-    <!-- Rear window -->
-    <rect x="405" y="320" width="40" height="15" rx="5" ry="10" fill="#212121" />
-
+    <rect x="235" y="170" width="40" height="15" rx="5" ry="10" fill="#212121" />
 </svg>
