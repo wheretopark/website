@@ -1,0 +1,20 @@
++++
+title = "Where To Park"
+sort_by = "weight"
++++
+
+# Features
+
+- View map or a list with nearby parking lots
+- Check amount of available spaces on a parking lot
+- Check pricing of a parking lot
+- Check opening hours of a parking lot
+- ... and much more
+
+# About
+
+The app is made solely by [Grzegorz Barański `gbaranski`](https://gbaranski.com).
+
+## Contact
+
+E-Mail: [gbaranski@wheretopark.app](mailto:gbaranski@wheretopark.app)

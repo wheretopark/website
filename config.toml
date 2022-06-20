@@ -16,3 +16,7 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+juice_logo_name = "WhereToPark"
+juice_logo_path = "logo.png"
+meta_title = "JS Search Extension: The ultimate search extension for Javascript"
+meta_description = "Input keyword js then press Space in the address bar to get started. Just that easy!"
