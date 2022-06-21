@@ -1,0 +1,12 @@
+#demonstration-image {
+    width: 100%;
+    max-width: 20%;
+    padding: 20px;
+    border-radius: 6%;
+}
+
+@media screen and (max-width: 768px) {
+    #demonstration-image {
+        display: none;
+    }
+}

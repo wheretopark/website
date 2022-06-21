@@ -1,4 +1,7 @@
 {% extends "juice/templates/index.html" %}
+{% block head %}
+<link rel="stylesheet" href="{{ get_url(path="index.css") }}">
+{% endblock head %}
 {% block hero %}
 <section>
     <h1 class="text-center heading-text">The ultimate parking lot assistant</h1>
@@ -10,7 +13,7 @@
         </div>
     </h3>
 </section>
-<img class="demonstration-gif" src="{{ get_url(path="screenshot-1.jpeg") }}" alt="screenshot-1" style="height: 50%; border-radius: 2%;">
+<img id="demonstration-image" src="{{ get_url(path="screenshot-1.jpeg") }}" alt="screenshot-1">
 {% endblock hero %}
 
 {% block footer %}
