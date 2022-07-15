@@ -11,6 +11,15 @@ sort_by = "weight"
 - Check opening hours of a parking lot
 - ... and much more
 
+
+# Screenshots
+
+<div class="demonstration-media">
+    <img class="demonstration-image" src="screenshot-mapview.png" alt="screenshot-mapview">
+    <img class="demonstration-image" src="screenshot-half-details.png" alt="screenshot-half-details">
+    <img class="demonstration-image" src="screenshot-details.png" alt="screenshot-details">
+</div>
+
 # About
 
 The app is made solely by [Grzegorz Barański `gbaranski`](https://gbaranski.com).
