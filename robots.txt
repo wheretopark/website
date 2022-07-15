@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wheretopark.app/sitemap.xml

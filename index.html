@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="icon" type="image/png" href="/favicon.ico">
+    
+    <style>
+    :root {
+        /* Primary theme color */
+        --primary-color: #FED43F;
+        /* Primary theme text color */
+        --primary-text-color: #543631;
+        /* Primary theme link color */
+        --primary-link-color: #F9BB2D;
+        /* Secondary color: the background body color */
+        --secondary-color: #fcfaf6;
+        --secondary-text-color: #303030;
+        /* Highlight text color of table of content */
+        --toc-highlight-text-color: #d46e13;
+    }
+</style>
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="https://wheretopark.app/juice.css">
+    
+<link rel="stylesheet" href="https://wheretopark.app/index.css">
+
+</head>
+
+<body>
+    
+
+    <header class="pos-absolute" style="background-color: transparent">
+        
+
+<a href="https:&#x2F;&#x2F;wheretopark.app&#x2F;">
+    <div class="logo">
+        <img src="https://wheretopark.app/logo.png" alt="logo">
+        WhereToPark
+    </div>
+</a>
+
+<nav>
+    
+    
+</nav>
+
+    </header>
+
+    <div class="hero">
+        
+<section>
+    <h1 class="text-center heading-text">The ultimate parking lot assistant</h1>
+    <h3 class="text" style="text-align: center;">
+        We'll help you seeking an <b>available</b> and <b>affordable</b> parking slot <b>nearby</b>
+        <div style="margin-top: 50px; display: flex; flex-direction: column; align-items: center">
+            <h1>Available soon on iOS, Android and Web</h1>
+            
+        </div>
+    </h3>
+</section>
+
+    </div>
+
+    
+
+    <main>
+        
+        
+        
+        
+        
+        <div class="toc">
+            <div class="toc-sticky">
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://wheretopark.app/#features">Features</a>
+                </div>
+                
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://wheretopark.app/#screenshots">Screenshots</a>
+                </div>
+                
+                
+                <div class="toc-item">
+                    <a class="subtext" href="https://wheretopark.app/#about">About</a>
+                </div>
+                
+                
+                <div class="toc-item-child">
+                    <a class="subtext" href="https://wheretopark.app/#contact"><small>- Contact</small></a>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+        
+        
+
+        <div class="content text">
+            
+            <div id="features" class="heading-text">Overview</div>
+            <h1 id="features">Features</h1>
+<ul>
+<li>View map or a list with nearby parking lots</li>
+<li>Check amount of available spaces on a parking lot</li>
+<li>Check pricing of a parking lot</li>
+<li>Check opening hours of a parking lot</li>
+<li>... and much more</li>
+</ul>
+<h1 id="screenshots">Screenshots</h1>
+<div class="demonstration-media">
+    <img class="demonstration-image" src="screenshot-mapview.png" alt="screenshot-mapview">
+    <img class="demonstration-image" src="screenshot-half-details.png" alt="screenshot-half-details">
+    <img class="demonstration-image" src="screenshot-details.png" alt="screenshot-details">
+</div>
+<h1 id="about">About</h1>
+<p>The app is made solely by <a href="https://gbaranski.com">Grzegorz Barański <code>gbaranski</code></a>.</p>
+<h2 id="contact">Contact</h2>
+<p>E-Mail: <a href="mailto:gbaranski@wheretopark.app">gbaranski@wheretopark.app</a></p>
+
+            
+        </div>
+
+        
+        
+    </main>
+
+    
+
+</body>
+<script>
+    function highlightNav(heading) {
+        let pathname = location.pathname;
+        document.querySelectorAll(".toc a").forEach((item) => {
+            item.classList.remove("active");
+        });
+        document.querySelector(".toc a[href$='" + pathname + "#" + heading + "']").classList.add("active");
+    }
+
+    let currentHeading = "";
+    window.onscroll = function () {
+        let h = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+        let elementArr = [];
+
+        h.forEach(item => {
+            if (item.id !== "") {
+                elementArr[item.id] = item.getBoundingClientRect().top;
+            }
+        });
+        elementArr.sort();
+        for (let key in elementArr) {
+            if (!elementArr.hasOwnProperty(key)) {
+                continue;
+            }
+            if (elementArr[key] > 0 && elementArr[key] < 300) {
+                if (currentHeading !== key) {
+                    highlightNav(key);
+                    currentHeading = key;
+                }
+                break;
+            }
+        }
+    }
+</script>
+
+</html>
